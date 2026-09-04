@@ -1,0 +1,37 @@
+{
+  "held_out_test_records": 575,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1_score": 1.0,
+  "roc_auc": 1.0,
+  "confusion_matrix": {
+    "true_negatives": 477,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "true_positives": 98
+  },
+  "financial_cost_ledger": {
+    "fraud_amount_prevented_inr": 2660091.54,
+    "fraud_amount_missed_inr": 0.0,
+    "false_positive_gmv_impact_inr": 0.0,
+    "estimated_fp_friction_cost_inr": 0.0,
+    "net_business_savings_inr": 2660091.54
+  },
+  "feature_importances": {
+    "amount": 0.1069,
+    "account_age_days": 0.3231,
+    "is_night_txn": 0.0017,
+    "amt_mcc_zscore": 0.0985,
+    "is_micro_txn": 0.0,
+    "device_shared_cust_count": 0.0065,
+    "ip_shared_cust_count": 0.004,
+    "cust_txn_count_10m": 0.0226,
+    "device_txn_count_10m": 0.1926,
+    "ip_txn_count_10m": 0.0426,
+    "graph_device_degree": 0.0384,
+    "graph_cluster_size": 0.002,
+    "method_upi": 0.0221,
+    "method_card": 0.0333,
+    "method_netbanking": 0.1057
+  }
+}
